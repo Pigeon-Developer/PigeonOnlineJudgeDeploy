@@ -93,7 +93,7 @@ HUSTOJ，一个流行的信息学在线评测系统。跨平台，易安装，�
 ## 配置Docker加速器（可选）
 
 详细教程请参照：[https://help.aliyun.com/document_detail/60750.html](https://help.aliyun.com/document_detail/60750.html)（阿里云镜像站）
- 或 运行`sudo wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/docker-faster.sh && sh docker-faster.sh`
+ 或 运行 `sudo wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/docker-faster.sh && sh docker-faster.sh` 
 
 ## 部署PigeonOJ
 
