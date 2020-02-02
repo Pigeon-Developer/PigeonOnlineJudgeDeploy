@@ -59,7 +59,7 @@ HUSTOJ，一个流行的信息学在线评测系统。跨平台，易安装，�
 
 > 1. [Windows 10 专业版/教育版/企业版 x64](#Windows-10-专业版/教育版/企业版-x64-Build-15063-or-later)
 > 2. [Windows 10 家庭版/家庭单语言版 x64](#Windows-10-家庭版/家庭单语言版-x64)
-> 3. [Windows 7 和 Windows 8/8.1 用户](#Windows-7-和-Windows-881-用户)
+> 3. [Windows 7 和 Windows 8/8.1](#Windows-7-和-Windows-881)
 
 **提示：Windows 下的安装仅供体验，勿在生产环境使用。如有必要，请使用虚拟机安装 Linux 并将 OJ 安装在其中。**
 
@@ -84,7 +84,7 @@ HUSTOJ，一个流行的信息学在线评测系统。跨平台，易安装，�
     Docker Toolbox 安装方法：[https://docs.docker.com/toolbox/toolbox_install_windows/](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 
-#### Windows 7 和 Windows 8/8.1 用户
+#### Windows 7 和 Windows 8/8.1
 安装 Docker Toolbox ，并自行设置共享文件夹。
 
 安装方法：[https://docs.docker.com/toolbox/toolbox_install_windows/](https://docs.docker.com/toolbox/toolbox_install_windows/)
