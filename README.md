@@ -99,7 +99,7 @@ HUSTOJ，一个流行的信息学在线评测系统。跨平台，易安装，�
 1.请选择磁盘空间富余的位置，运行下面的命令
 
 ```bash
-git clone -b 2.0 https://github.com/Pigeon-Developer/PigeonOnlineJudgeDeploy.git && cd PigeonOnlineJudgeDeploy
+git clone https://github.com/Pigeon-Developer/PigeonOnlineJudgeDeploy.git && cd PigeonOnlineJudgeDeploy
 ```
 
 2.启动服务
