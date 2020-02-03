@@ -17,7 +17,7 @@ HUSTOJ，一个流行的信息学在线评测系统。跨平台，易安装，�
 
 中文  |  ~~English~~
 
- ~~[一键安装脚本（拿来就用）]()~~（编写中）
+ [一键安装脚本（拿来就用）](https://github.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/tree/master/sh)（编写中，并不全）
 
 [正常安装（可自由定制）](#目录)
 
