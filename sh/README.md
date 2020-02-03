@@ -1,5 +1,7 @@
 # PigeonOJ 快速安装脚本（正在编写中）
 
+中文  | ~~English~~
+
 ## Linux 环境
 
 > 1. [Ubuntu 18.04](#Ubuntu-1804)
