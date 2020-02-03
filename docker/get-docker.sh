@@ -34,7 +34,7 @@ echo " "
 # the script was uploaded (Should only be modified by upload job):
 SCRIPT_COMMIT_SHA="f45d7c11389849ff46a6b4d94e0dd1ffebca32c1"
 
-echo "
+echo " "
 
 
 # The channel to install from:
