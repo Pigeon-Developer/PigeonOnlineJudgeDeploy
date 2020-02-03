@@ -14,6 +14,8 @@ echo "|  |_____/   \___/   \___| |_|\_\  \___| |_|    |"
 echo "|                                               |"
 echo "|                                               |"
 echo "+===============================================+"
+echo " "
+echo " "
 
 # This script is meant for quick & easy install via:
 #   $ curl -fsSL https://get.docker.com -o get-docker.sh
