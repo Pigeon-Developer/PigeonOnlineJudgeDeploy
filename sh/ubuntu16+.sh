@@ -39,15 +39,19 @@ echo "  [ + ] Installing docker-compose..."
 pip install docker-compose > /dev/null
 pip install docker-compose > /dev/null
 
+echo "  [ + ] Installing docker..."
+wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/get-docker.sh > /dev/null
+sudo sh get-docker.sh > /dev/null
+
 echo "  [ + ] Setting up docker registry mirrors..."
 sudo wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/docker-faster.sh > /dev/null
-sudo bash docker-faster.sh
+sudo sh docker-faster.sh
 
-echo "  Cloning into PigeonOnlineJudgeDeploy..."
+echo "  [ + ] Cloning into PigeonOnlineJudgeDeploy..."
 git clone https://github.com/Pigeon-Developer/PigeonOnlineJudgeDeploy.git > /dev/null
 cd PigeonOnlineJudgeDeploy
 
-docker-compose up -d
+sudo docker-compose up -d
 
 clear
 
