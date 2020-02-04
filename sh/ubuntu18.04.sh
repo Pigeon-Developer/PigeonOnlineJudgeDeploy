@@ -22,7 +22,7 @@ echo "  [ + ] sleep 5"
 sleep 5
 echo " "
 echo "  [ + ] apt update"
-sudo apt update > /dev/null
+sudo apt update -qq > /dev/null
 
 echo "  [ + ] apt install -y vim python3-pip curl git python3.6"
 sudo apt install -y vim python3-pip curl git python3.6 > /dev/null
