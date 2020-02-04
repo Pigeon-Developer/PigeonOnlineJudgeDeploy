@@ -25,7 +25,7 @@ echo "  [ + ] apt update"
 sudo apt update -qq > /dev/null
 
 echo "  [ + ] apt install -y vim python3-pip curl git python3.6"
-sudo apt install -y vim python3-pip curl git python3.6 > /dev/null
+sudo apt install -y -qq vim python3-pip curl git python3.6 > /dev/null
 
 echo "  [ + ] Setting up Python..."
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100 > /dev/null
@@ -39,12 +39,12 @@ pip install docker-compose > /dev/null
 pip install docker-compose > /dev/null
 
 echo "  [ + ] Installing docker..."
-wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/get-docker.sh > /dev/null
+wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/get-docker.sh -o get-docker.sh > /dev/null
 sudo sh get-docker.sh > /dev/null
 
 echo "  [ + ] Setting up docker registry mirrors..."
 sudo wget https://raw.githubusercontent.com/Pigeon-Developer/PigeonOnlineJudgeDeploy/master/docker/docker-faster.sh > /dev/null
-sudo sh docker-faster.sh
+sudo sh docker-faster.sh > /dev/null
 
 echo "  [ + ] Cloning into PigeonOnlineJudgeDeploy..."
 git clone https://github.com/Pigeon-Developer/PigeonOnlineJudgeDeploy.git > /dev/null
